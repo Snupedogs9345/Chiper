@@ -1,24 +1,24 @@
-# chiper
+#chiper
 
-Chiper is a media platform for insiders and dataminers who publish gaming leaks, development rumors, and hidden entertainment news.
+Chiper — это медиа-платформа для инсайдеров и датамайнеров, публикующих утечки информации об играх, слухи о разработке и скрытые новости индустрии развлечений.
 
-## Structure
+## Структура
 
 ```text
 backend/
 frontend/
-  assets/
-  src/
+assets/
+src/
 ```
 
-## Stack
+## Стек
 
-- Backend: Django, Python
-- Frontend: React, Vite
+- Бэкенд: Django, Python
+- Фронтенд: React, Vite
 
-## Quick start
+## Быстрый старт
 
-### Backend
+### Бэкенд
 
 ```bash
 cd backend
@@ -29,7 +29,7 @@ python manage.py migrate
 python manage.py runserver
 ```
 
-### Frontend
+### Фронтенд
 
 ```bash
 cd frontend
@@ -37,8 +37,8 @@ npm install
 npm run dev
 ```
 
-## Next steps
+## Следующие шаги
 
-- Add Django apps for posts, categories, sources, and user profiles
-- Connect React to Django API
-- Add authentication and moderation flow
+- Добавить приложения Django для постов, категорий, источников и профилей пользователей
+- Подключить React к API Django
+- Добавить процесс аутентификации и модерации
